@@ -37,7 +37,7 @@ namespace Melearning
                 int rannum = 0;
                 Random r = new Random();
 
-                rannum = r.Next(1, 4);
+                rannum = r.Next(1, 20);
 
                 switch (rannum)
                 {
@@ -45,13 +45,61 @@ namespace Melearning
                         label2.Text = "Answer: " +  "YES";
                         break;
                     case 2:
-                        label2.Text = "Answer: " +  "NO";
+                        label2.Text = "Answer: " +  "It is certain";
                         break;
                     case 3:
-                        label2.Text = "Answer: " +  "Ask later again";
+                        label2.Text = "Answer: " +  "It is decidedly so";
                         break;
-                    default:
-                        label2.Text = "Answer: " + "Not likely too";
+                    case 4:
+                        label2.Text = "Answer: " +  "Without a doubt";
+                        break;
+                     case 5:
+                        label2.Text = "Answer: " +  "Reply hazy, try again";
+                        break;
+                     case 6:
+                        label2.Text = "Answer: " +  "Ask again later";
+                        break;
+                     case 7:
+                        label2.Text = "Answer: " +  "Better not tell you now";
+                        break;
+                     case 8:
+                        label2.Text = "Answer: " +  "Cannot predict now";
+                        break;
+                     case 9:
+                        label2.Text = "Answer: " +  "Don't count on it";
+                        break;
+                     case 10:
+                        label2.Text = "Answer: " +  "My reply is no";
+                        break;
+                     case 11:
+                        label2.Text = "Answer: " +  "My sources say no";
+                        break;
+                     case 12:
+                        label2.Text = "Answer: " +  "Outlook not so good";
+                        break;
+                     case 13:
+                        label2.Text = "Answer: " +  "Very doubtful";
+                        break;
+                     case 14:
+                        label2.Text = "Answer: " +  "Concentrate and ask again";
+                        break;
+                     case 15:
+                        label2.Text = "Answer: " +  "Yes – definitely";
+                        break;
+                      case 16:
+                        label2.Text = "Answer: " +  "You may rely on it";
+                        break;
+                      case 17:
+                        label2.Text = "Answer: " +  "Outlook good";
+                        break;
+                      case 18:
+                        label2.Text = "Answer: " +  "Most likely";
+                        break;
+                      case 19:
+                        label2.Text = "Answer: " +  "As I see it, yes";
+                        break;
+                     default:
+                        label2.Text = "Answer: " + "Signs point to yes";
                          break;
 
             }
